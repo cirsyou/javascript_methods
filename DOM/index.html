@@ -22,6 +22,10 @@
   </div>
   <script>
     window.onload = function () {
+      // 获取html 标题
+      console.log(document.title);
+      // 设置html 标题
+      document.title = '修改文档标题';
       // dom元素节点只能通过id获取 通过class获取的往往无法生效
       var nodeList = document.getElementById('ulbox').childNodes;
       console.log(nodeList);
